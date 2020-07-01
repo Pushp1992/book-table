@@ -1,0 +1,65 @@
+#container {
+  margin-top: -20px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#header {
+  background-color: #2874f0;
+  max-height: 250px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+#parent-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#searchbar {
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 500px;
+  height: 50px;
+}
+
+#booktable {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  height: 480px;
+  width: 100%;
+}
+
+#footer {
+  background-color: #212121;
+  position: fixed;
+  position: relative;
+  color: white;
+  height: 150px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Input Styles */
+
+#authorName {
+  width: 270px;
+  padding: 10px;
+  border-style: unset;
+  font-size: 20px;
+}
+
+#submit-btn {
+  width: 170px;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: green;
+}
